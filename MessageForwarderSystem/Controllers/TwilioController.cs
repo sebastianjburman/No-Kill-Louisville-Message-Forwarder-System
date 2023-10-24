@@ -30,7 +30,7 @@ public class TwilioController : ControllerBase
     public ActionResult PostTwilioMessage(TwilioMessage twilioMessage)
     {
         _logger.LogInformation(twilioMessage.ToString());
-        Console.WriteLine("Test");
+        //Console.WriteLine("Test");
         return Ok();
     }
 }
